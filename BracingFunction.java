@@ -64,7 +64,7 @@ public class BracingFunction {
         map.put('[', ']');
 
         int length = str.length();
-		int half = length/2;
+	int half = length/2;
         
         for (int i = 0; i < half; i++) {
 
