@@ -4,15 +4,15 @@ import java.util.Map;
 public class BracingFunction {
     
     /**
-     * Create Bracing function
+     *  Create Bracing function
      *  Input: String
      *  Output: String
      *
      *  The function should check if bracers are in the correct order.
      *  Rules:
-     * string should contain only braces ( ) { } [ ]
-     * should start with an opening brace
-     * after opening brace can be only appropriate closing brace OR any other opening brace
+     *  - string should contain only braces ( ) { } [ ]
+     *  - should start with an opening brace
+     *  - after opening brace can be only appropriate closing brace OR any other opening brace
      *  - count of opened braces of each type should be equal to count of closed braces of the same type
      *
      *  Return values:
@@ -71,7 +71,7 @@ public class BracingFunction {
             char next = str.charAt(i + 1);
             char inverse = map.get(str.charAt(i));
 
-			// TODO ...
+            // TODO ...
             if (next != inverse) {
                 return "Wrong order";
             }
