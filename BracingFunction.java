@@ -71,7 +71,7 @@ public class BracingFunction {
             char next = str.charAt(i + 1);
             char inverse = map.get(str.charAt(i));
 
-            // TODO ...
+            // TODO implement other rules
             if (next != inverse) {
                 return "Wrong order";
             }
